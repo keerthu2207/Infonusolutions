@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:	#F5FFFA;
+    /* background-color:#d7eef6; */
+    /* background-color:#def0f6 ; */
+}
+#header{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #0c005a;
+}
+#head1{
+    padding-left: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.h1-s1 a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+#s1-1{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+}
+#s1-pic{
+    width: 1280px;
+    height: 550px;
+    display: block;
+
+}
+.s1-p1{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    color: #0c005a;
+    font-family: "Edu QLD Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #0c005a;
+}
+#s1-a1{
+    padding: 0px 0px 0px 600px;
+}
+.h1-s1 a:hover{
+    color: rgb(183, 178, 178);
+}
+.s1-a1-a{
+    position: absolute;
+    top: 80%;
+    text-decoration: none;
+    width: 85px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #0c005a;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    
+}
+.s1-a1-a:hover{
+    box-shadow: 0px  0px 25px #f4e7fb;
+
+}
+.s2-head{
+    padding: 0px 0px 0px 450px;
+    margin-top: 0px;
+    
+}
+.s2-p1{
+    color: #0c005a;
+    font-family: "Lilita One", sans-serif;
+   font-weight: 400;
+  font-style: normal;
+    font-size: 40px;
+}
+.card-list .card-item .card-link{
+    user-select: none;
+    display: block;
+    background: #cce8ef;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 15px;
+    box-shadow: 0px 10px 10px #bcbcbc;
+}
+.card-list .card-link .card-image{
+    width: 345px;
+    object-fit: cover;
+    border-radius: 10px;   
+}
+.card-list .card-item{
+    list-style: none;
+}
+.card-button{
+    margin: 0px 0px 0px 120px;
+    background: #0c005a;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card-list .card-link .card-button{
+    transition: 0.3s ease;
+}
+
+.card-wrapper {
+    margin: 0px 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card-list {
+    display: flex;
+    gap: 20px; 
+    padding: 0;
+    margin: 0px;
+}
+.card-list .card-item .swiper-slide {
+    list-style: none;
+    
+}
+.card-button:hover{
+    box-shadow: 0px  0px 10px #f4e7fb;
+    border: 2px solid white;
+}
+
+.card-item a{
+    width: 350px;
+}
+.card-item a:hover{
+    border: #0c005a;
+}
+#sec3-div1{
+    display: flex;
+    margin: 30px;
+}
+.sec3-service{
+    margin: 10px 70px 10px 70px;
+}
+.head{
+    font-size: 30px;
+    color: #0c005a;
+    font-family: "Edu QLD Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style:normal;
+}
+.about-service{
+    text-align: justify;
+    font-size: 18px;
+}
+#sec3-div2{
+    display: flex;
+    padding: 10px 340px 10px 240px;
+}
+.other-service{
+    margin: 0px 60px 0px 60px;
+    background: #cce8ef;
+    padding: 40px;
+    color: #0c005a;
+    font-family: "Edu QLD Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 20px;
+    border-radius: 15px;
+}
+#section-4{
+    display: flex;
+    margin: 40px;
+}
+.sec4-head{
+    margin: 10px;
+}
+.sec4-description{
+    margin: 50px 10px 10px 10px;
+    text-align: justify;
+    font-size: 20px; 
+}
+.sec4-img{
+    margin: 30px; 
+}
+.sec4-pic{
+width: 500px;
+height: 400px;
+}
+#section-5{
+    display: flex;
+    margin: 10px 40px 10px 20px;
+}
+.sec5-description{
+    text-align: justify;
+    font-size: 20px; 
+    padding-right: 50px;
+}
+.sec5-pic{
+   width: 450px;
+   height: 400px;
+}
+.sec5-content{
+  margin: 20px;
+}
+.sec5-img{
+    margin: 20px;
+}
+.sec5-head{
+    margin-top: 10px;
+}
+#footer{
+    background: #0c005a;
+    color: white;
+    padding:  30px 0px 30px 0px;
+}
+.maindiv{
+    display: flex;
+    padding-left: 100px;
+    
+}
+.footer-subhead{
+    padding: 10px;
+    font-size: 15px;
+}
+.div{
+    padding: 20px;
+}
+.div-about{
+    margin-right: 270px;
+}
+.footer-a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.footer-a:hover{
+    color: rgb(142, 138, 138);
+}
+.f-div2{
+    margin-top: 10px;
+}
+.f-main{
+    padding: 10px;
+    
+    font-size: 15px;
+    font-style:normal;
+}
+#footer-final{
+    background: black;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+.footer-about{
+    margin-left: 10px;
+    text-align: left;
+}
+.about-div{
+    margin-top: 15px;
+    width: 300px;
+    padding-right: 40px;
+}
+.f-pic{
+    width: 25px;
+}
+.logo-div{
+    display: flex;
+    margin-right: 30px;
+}
+.footer-image{
+    padding: 10px;
+}
+.address-div{
+    margin-left: 10px;
+}
+.phn-num{
+    margin-left: 0;
+}
