@@ -5,6 +5,16 @@ body{
     /* background-color:#d7eef6; */
     /* background-color:#def0f6 ; */
 }
+#wa-lg{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #0c005a;
+  z-index: 1000;    
+}
+#head-lg{
+  width: 200px;
+}
 #header{
     padding: 30px;
     display: flex;
@@ -28,10 +38,10 @@ body{
     max-width: 600px;
 }
 #s1-pic{
-    width: 1280px;
-    height: 550px;
+    width: 1520px;  
+    height: 600px;
     display: block;
-
+    object-fit: fill;
 }
 .s1-p1{
     position: absolute;
@@ -217,6 +227,9 @@ height: 400px;
     background: #0c005a;
     color: white;
     padding:  30px 0px 30px 0px;
+}
+#foot-lg{
+  width: 300px;
 }
 .maindiv{
     display: flex;
