@@ -451,7 +451,7 @@ height: 400px;
     margin: 20px;
   }
 
-  .sec4-img .sec4-content {
+  .sec4-img, .sec4-content {
     width: 100%;
     margin: 10px 0;
     text-align: center;
@@ -511,6 +511,7 @@ height: 400px;
 }
 
 @media screen and (max-width: 426px){
+
   #header {
     flex-direction: row;
     width: 330px;
@@ -520,17 +521,17 @@ height: 400px;
   }
   #s1-pic {
     width: 360px;
-    height: 500px;
+    height: 400px;
   }
   #head1 {
-    padding-left: 5px;
+    padding-left: 10px;
 
   }
   #head {
     padding-right: 0; 
   }
   #head-lg {
-    width: 80px;
+    width: 90px;
   }
   .h1-s1 a{
     padding: 0;
@@ -540,7 +541,8 @@ height: 400px;
   }
   .s1-p1 {
     font-size: 20px;
-    width: 700px;
+    width: 400px;
+    left: 40%;
   }
   #s1-a1{
     padding: 0;
@@ -549,40 +551,67 @@ height: 400px;
     font-size: 10px;
     width: 45px;
     border-radius: 15px;
+    left: 30%;
+    top: 75%;
   }
+     #section-2 {
+    width: 330px;
+  }
+
   .s2-head {
-    padding-left: 20px;
+    padding-left: 0;
     text-align: center;
   }
+
   .s2-p1 {
-    font-size: 28px;
+    font-size: 24px;
   }
+
   .container {
-    width: 400px;
-    margin: auto;
+    width: 330px;
+    margin: 10px;
     overflow: hidden;
   }
+
   .card-wrapper {
-    margin: 0;
     padding: 10px;
   }
-  .card-item a {
-    width: 300px;
+
+  .card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
   }
+
+  .card-item {
+    flex: 0 0 auto; 
+    margin-right: 15px;
+  }
+
+  .card-item a {
+    display: block;
+    width: 260px; 
+    box-sizing: border-box;
+  }
+
   .card-list .card-link .card-image {
     width: 100%;
     height: auto;
+    border-radius: 8px;
   }
+
   .card-button {
-    margin-left: 80px;
+    margin-left: 60px;
     font-size: 14px;
     padding: 8px 12px;
   }
   #sec3-div1 {
     flex-direction: column;
+    margin-left: 20px;
   }
   #section-3 {
-    width: 420px;
+    width: 330px;
   }
   .head {
     font-size: 25px;
@@ -597,47 +626,58 @@ height: 400px;
   .other-service {
     text-align: center;
     font-size: 20px;
-    width: 250px;
+    width: 140px;
     height: 0px;
+    padding: 40px;
   }
   #sec3-div2{
-    padding-left: 220px;
+    padding-left: 0px;
     flex-direction: column;
+    width: 330px;
   }
   #section-4 {
-    width: 400px;
+    width: 330px;
   }
   .sec4-description {
     padding: 0;
     font-size: 15px;
-    width: 360px;
+    width: 300px;
+    margin-top: 30px;
   }
   .sec4-img{
     text-align: none;
-    padding-right: 40px;
+    
   }
   .sec4-pic {
-    width: 350px;
+    width: 300px;
     height: 300px;
   }
   #section-5{
-    width: 420px;
+    width: 330px;
+  }
+  .sec5-img{
+    margin: 10px;
   }
   .sec5-pic {
-    width: 350px;
+    width: 300px;
     height: 300px;
     padding-left: 0px; 
   }
+  .sec5-content {
+    margin: 10px;
+}
   .sec5-head {
     text-align: center;
     padding-left: 20px;
   }
+
   .sec5-description {
-    font-size: 15px;
     padding: 0;
+    font-size: 15px;
+    width: 300px;
   }
   #footer {
-    width: 425px;
+    width: 345px;
   }
   .maindiv {
     flex-direction: column;
@@ -645,7 +685,7 @@ height: 400px;
   }
   #footer-final {
     font-size: 10px;
-    width: 405px;
+    width: 325px;
   }
   #wa-lg {
     position: fixed;
@@ -657,13 +697,23 @@ height: 400px;
   #foot-lg {
     width: 200px;
   }
-  .footer-about {
-   font-size: 12px;
-  }
   .div {
     padding: 20px 20px 10px 0px;
   }
   .connectwithus{
   text-align: center;
   }
+  .footer-subhead {
+    padding: 10px;
+    font-size: 12px;
+}
+.footer-a{
+  font-size: 10px;
+}
+.address-div{
+  font-size: 10px;
+}
+.footer-about{
+  font-size: 10px;
+}
 }
