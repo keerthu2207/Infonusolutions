@@ -677,7 +677,7 @@ height: 400px;
     width: 300px;
   }
   #footer {
-    width: 345px;
+    width: 350px;
   }
   .maindiv {
     flex-direction: column;
@@ -685,7 +685,7 @@ height: 400px;
   }
   #footer-final {
     font-size: 10px;
-    width: 325px;
+    width: 330px;
   }
   #wa-lg {
     position: fixed;
