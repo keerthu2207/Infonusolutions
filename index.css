@@ -5,6 +5,17 @@ body{
     /* background-color:#d7eef6; */
     /* background-color:#def0f6 ; */
 }
+#header{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #0c005a;
+}
+#head1{
+    padding-left: 550px;
+    display: flex;
+    flex-direction: row;
+}
 #wa-lg{
   position: fixed;
   bottom: 20px;
@@ -14,17 +25,6 @@ body{
 }
 #head-lg{
   width: 200px;
-}
-#header{
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    background-color: #0c005a;
-}
-#head1{
-    padding-left: 700px;
-    display: flex;
-    flex-direction: row;
 }
 .h1-s1 a{
     text-decoration: none;
@@ -37,11 +37,17 @@ body{
     width: 100%;
     max-width: 600px;
 }
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
 #s1-pic{
-    width: 1520px;  
-    height: 600px;
+    width: 1280px;
+    height: 550px;
     display: block;
-    object-fit: fill;
+
 }
 .s1-p1{
     position: absolute;
@@ -149,7 +155,7 @@ body{
 }
 #sec3-div1{
     display: flex;
-    margin: 30px;
+    margin: 20px;
 }
 .sec3-service{
     margin: 10px 70px 10px 70px;
@@ -201,7 +207,7 @@ body{
 width: 500px;
 height: 400px;
 }
-#section-5{
+.sec5-main{
     display: flex;
     margin: 10px 40px 10px 20px;
 }
@@ -221,15 +227,13 @@ height: 400px;
     margin: 20px;
 }
 .sec5-head{
-    margin-top: 10px;
+    padding-left: 530px;
+    margin-bottom: 0px;
 }
 #footer{
     background: #0c005a;
     color: white;
     padding:  30px 0px 30px 0px;
-}
-#foot-lg{
-  width: 300px;
 }
 .maindiv{
     display: flex;
@@ -251,6 +255,9 @@ height: 400px;
     color: white;
     margin-left: 10px;
     font-size: 15px;
+}
+#foot-lg{
+  width: 300px;
 }
 .footer-a:hover{
     color: rgb(142, 138, 138);
@@ -295,6 +302,7 @@ height: 400px;
 .phn-num{
     margin-left: 0;
 }
+
 
 /* Mediaquery */
 @media screen and (max-width: 1024px){
@@ -370,6 +378,7 @@ height: 400px;
     width: 90px;
     font-size: 20px;
   }
+  
 
   /* Section 2 */
  
@@ -463,35 +472,30 @@ height: 400px;
   }
 
   /* Section 5 */
-  #section-5 {
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-  }
-
-  .sec5-img, .sec5-content {
-    width: 100%;
-    margin: 10px 0;
+  .sec5-head{
     text-align: center;
+    padding-left: 100px;
   }
-
+  .sec5-main{
+    display: flex;
+    flex-direction: column;
+  }
   .sec5-pic {
     width: 1100px;
     height: 600px;
+    padding-left: 60px;
   }
-
   .sec5-description {
     padding: 0 30px;
     font-size: 23px;
   }
-
   /* Footer */
   .maindiv {
     flex-direction: row;
     padding-left: 20px;
   }
 
-  .div, .about-div {
+  .div .about-div {
     padding: 10px 0;
     width: 100%;
   }
@@ -513,11 +517,11 @@ height: 400px;
   #header {
     flex-direction: column;
     padding: 40px;
-    width: 1190px;
+    width: 1185px;
   }
 
   #head1 {
-    padding-left: 40px;
+    padding-left: 200px;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -526,19 +530,18 @@ height: 400px;
   }
 
   #s1-pic {
-    width: 1270px;
-    height: auto;
+    width: 1265px;
+    height: 1300px;
   }
 
   .s1-p1 {
     font-size: 50px;
-    width: 90%;
-    text-align: center;
-    padding-left: 800px;
+    width: 700px;
+    padding-left: 750px;
   }
 
   #s1-a1 {
-    padding-left:600px;
+    
     justify-content: center;
     display: flex;
   }
@@ -550,13 +553,14 @@ height: 400px;
     border-radius: 25px;
   }
   .s2-head{
-    padding-left: 0px;
+    padding: 10px 0px 10px 170px;
     text-align: center;
   } 
   .s2-p1 {
     font-size: 60px;
     width: 800px;
-    padding: 20px 200px;
+    padding: 10px 40px;
+    
   }
   .container{
     width: 1000px;
@@ -569,17 +573,15 @@ height: 400px;
     min-width: max-content;
     scroll-snap-type: x mandatory;
   }
-  .card-item{
-    width:400px;
-  }
   .card-wrapper {
     margin: 10px 20px 10px 20px;
-    padding: 10px 250px;
+    padding: 10px 220px;
   }
 
   .card-link {
-    width: 220px; 
+    width: 280px; 
     padding: 10px;
+    height: 400px;
   }
 
   .card-image {
@@ -596,6 +598,13 @@ height: 400px;
     flex-direction: column;
     align-items: center;
   }
+  #section-3 {
+    width: 1200px;
+  }
+  #sec3-div2 {
+    flex-direction: row;
+    align-items: center;
+  }
   .head {
     font-size: 40px;
   }
@@ -608,11 +617,11 @@ height: 400px;
     height: 600px;
   }
   .sec4-head{
-    text-align: center;
     font-size: 50px;
+    padding-left: 220px;
   }
   .sec5-head{
-    padding: 0;
+    padding-left: 240px;
     font-size: 50px;
   }
   .sec4-description {
@@ -640,35 +649,8 @@ height: 400px;
     flex-direction: column;
     padding-left: 10px;
   }
-}
-
-@media screen and (max-width: 376px) {
-
-  #s1-pic {
-    width: 1267px;
-    height: 900px;
+  #footer-final {
+    font-size: 23px;
+    height: 30px;
   }
-  .s1-p1 {
-    font-size: 50px;
-    text-align: center;
-    padding-left: 500px;
-  }
-  #s1-a1 {
-    padding-left: 500px;
-    border-radius: 20px;
-    width: 100px;
-  }
-
-  .s1-a1-a {
-    font-size: 22px;
-    padding: 20px;
-    border-radius: 20px;
-  }
-}
-
-@media screen and (max-width: 322px) {
-  #s1-pic {
-    width: 1267px;
-    height: 1100px;
-  } 
 }
