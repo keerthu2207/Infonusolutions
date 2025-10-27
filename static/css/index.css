@@ -301,7 +301,7 @@ height: 400px;
 
 
 /* Mediaquery */
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 767px) and (max-width: 1024px){
     #header {
     flex-direction: column;
     align-items: center;
@@ -331,7 +331,7 @@ height: 400px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 427px) and (max-width: 768px) {
 
   /* Navbar */
   #header {
@@ -510,7 +510,7 @@ height: 400px;
   }
 }
 
-@media screen and (max-width: 426px){
+@media screen and (min-width: 426px){
 
   #header {
     flex-direction: row;
