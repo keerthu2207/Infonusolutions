@@ -13,7 +13,7 @@ body{
     background-color: #0c005a;
 }
 #head1{
-    padding-left: 550px;
+    /* padding-left: 550px; */
     display: flex;
     flex-direction: row;
 }
@@ -84,7 +84,7 @@ body{
 
 }
 .s2-head{
-    padding: 0px 0px 0px 450px;
+    /* padding: 0px 0px 0px 450px; */
     margin-top: 0px;
     
 }
@@ -103,9 +103,10 @@ body{
     border-radius: 0px;
     padding: 15px;
     box-shadow: 0px 10px 10px #bcbcbc;
+    width: 311px;
 }
 .card-list .card-link .card-image{
-    width: 345px;
+    width: 315px;
     object-fit: cover;
     border-radius: 10px;   
 }
@@ -124,9 +125,10 @@ body{
 }
 
 .card-wrapper {
-    margin: 0px 60px 35px;
+    /* margin: 0px 60px 35px; */
     padding: 20px 10px;
     overflow: hidden;
+    margin:0px 12px 28px;
 }
 
 .card-list {
@@ -211,7 +213,7 @@ height: 400px;
 .sec5-description{
     text-align: justify;
     font-size: 20px; 
-    padding-right: 50px;
+    /* padding-right: 50px; */
 }
 .sec5-pic{
    width: 450px;
@@ -302,62 +304,75 @@ height: 400px;
 
 
 /* Mediaquery */
-@media screen and (max-width: 1024px){
+/* @media screen and (min-width: 1024px){
     #header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 15px;
-    width: 1250px;
+    width: 994px;
   }
   #head{
     padding-right: 1100px;
   }
+  #s1-pic{
+    width: 1024px;
+  }
   .container{
-    width: 1250px;
+    width: 1024px;
   }
   #section-3{
-    width: 1250px;
+    width: 1024px;
+  }
+  #sec3-div2{
+    padding: 10px 10px 10px 112px;
   }
   #section-4{
-    width: 1250px;
+    width: 979px;
+    margin: 13px 0px 10px 46px;
   }
   #section-5{
-    width: 1250px;
+    width: 1024px;
   }
   #footer{
-    width: 1270px;
+    width: 1024px;
+  }
+  .maindiv{
+    padding-left: 0px;
   }
   #footer-final{
-    width: 1250px;
+    width: 1004px;
   }
-}
+  #wa-lg {
+    left:20%;
+  }
+} */
 
 @media screen and (max-width: 768px) {
 
   /* Navbar */
   #header {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    /* align-items: center; */
     padding: 15px;
   }
 
   #head1 {
     flex-wrap: wrap;
     justify-content: center;
+    padding:10px 0px 0px 92px;
   }
 
-  .h1-s1 {
+  /* .h1-s1 {
     margin: 5px 10px;
-  }
+  } */
 
   /* Section 1 */
   #s1-pic{
-    width: 1280px;
-    height: 800px;
+    width: 768px;
+    height: 698px;
   }
 
   .s1-p1 {
-    
     top: 50%;
     left: 50%;
     font-size: 40px;
@@ -374,6 +389,7 @@ height: 400px;
   .s1-a1-a {
     width: 90px;
     font-size: 20px;
+    left:59%;
   }
   
 
@@ -388,10 +404,10 @@ height: 400px;
     font-size: 45px;
   }
 
- .card-wrapper {
+ /* .card-wrapper {
     margin: 10px 20px 10px 20px;
     padding: 10px 110px;
-  }
+  } */
 
   .card-list {
     display: flex;
@@ -428,21 +444,21 @@ height: 400px;
   #sec3-div2 {
     flex-direction: row;
     align-items: center;
-    padding-left: 300px;
+    padding-left: 120px;
   }
   .about-service {
-    font-size: 23px;
+    font-size: 16px;
     padding: 10px;
   }
   .head{
-     font-size: 30px;
+     font-size: 23px;
   }
 
   .other-service {
     margin: 10px 20px;
-    padding: 50px;
+    padding: 26px;
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
   }
 
   /* Section 4 & 6 */
@@ -459,36 +475,35 @@ height: 400px;
   }
 
   .sec4-pic {
-    width: 1100px;
-    height: 600px;
+    width: 649px;
+    height: 450px;
   }
 
   .sec4-description {
     padding: 0 30px;
-    font-size: 23px;
+    font-size: 16px;
   }
 
   /* Section 5 */
   .sec5-head{
     text-align: center;
-    padding-left: 100px;
+    padding-left: 0px; 
   }
   .sec5-main{
     display: flex;
     flex-direction: column;
   }
   .sec5-pic {
-    width: 1100px;
-    height: 600px;
-    padding-left: 60px;
+    width: 649px;
+    height: 450px;
   }
   .sec5-description {
-    padding: 0 30px;
-    font-size: 23px;
+    /* padding: 0 30px; */
+    font-size: 16px;
   }
   /* Footer */
   .maindiv {
-    flex-direction: row;
+    flex-direction: column;
     padding-left: 20px;
   }
 
